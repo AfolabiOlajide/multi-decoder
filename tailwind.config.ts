@@ -15,7 +15,6 @@ const config: Config = {
                 foreground: "var(--foreground)",
             },
         },
-        colors: {},
     },
     darkMode: "class",
     plugins: [heroui()],

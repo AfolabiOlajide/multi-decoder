@@ -1,6 +1,6 @@
 import jwt from "jsonwebtoken";
 
-const SECRET_KEY = process.env.JWT_SECRET as string;
+const SECRET_KEY = process.env.NEXT_PUBLIC_JWT_SECRET as string;
 
 export class URLJWT {
     /**
@@ -12,7 +12,7 @@ export class URLJWT {
      */
     static generateJWT(data: string, key: string, method: string): string {
         const token = jwt.sign({ data, key, method }, SECRET_KEY, {
-            expiresIn: "24h",
+            expiresIn: "2h",
         });
         return token;
     }
