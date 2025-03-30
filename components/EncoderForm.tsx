@@ -103,7 +103,7 @@ const EncoderForm = () => {
                     className="p-[1rem] md:p-[2rem] w-full mt-4 text-[1rem] md:text-[1.5rem] font-bold"
                     color="primary"
                     variant="flat"
-                    onClick={handleEncode}
+                    onPress={handleEncode}
                 >
                     {mode === "encode" ? "Encode" : "Decode"}
                 </Button>
