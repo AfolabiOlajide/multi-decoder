@@ -36,7 +36,7 @@ export default function RootLayout({
                 className={`${geistSans.variable} ${geistMono.variable} antialiased bg-slate-200`}
             >
                 <HeroUIProvider>
-                    <main className="min-h-screen mx-auto w-[90%] md:w-[70%] lg:w-[60%] pt-[2rem]">
+                    <main className="min-h-screen mx-auto w-[90%] md:w-[70%] lg:w-[50%] pt-[2rem]">
                         <header className="mb-[5rem]">
                             <h1
                                 className={`text-[2rem] md:text-[4rem] font-bold text-center ${silkscreen.className}`}
