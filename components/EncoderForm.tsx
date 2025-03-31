@@ -78,7 +78,7 @@ const EncoderForm = () => {
                 >
                     <SelectItem key="caesar">Caesar Cipher</SelectItem>
                     <SelectItem key="binary">Binary</SelectItem>
-                    <SelectItem key="morse">Morse Code</SelectItem>
+                    {/* <SelectItem key="morse">Morse Code</SelectItem> */}
                 </Select>
 
                 {method === "caesar" && (
